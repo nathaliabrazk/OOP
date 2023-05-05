@@ -7,7 +7,11 @@ class Macas{
    String cor;
    String formato;
    int peso;
-   
+   /*Método*/
+   float calcCalorias(){
+       float temp = 52f/100f * peso;
+       return (temp);
+   }
    /*Construtor*/
    public Macas(){
        Scanner le = new Scanner(System.in);
@@ -20,13 +24,8 @@ class Macas{
        System.out.print("Peso(em gramas): ");
        peso = le.nextInt();
    }
-   
-   /*Método*/
-   float calcCalorias(){
-       float temp = 52f/100f * peso;
-       return (temp);
-   }
 }
+   
 
 public class FruitSet {
 
