@@ -14,7 +14,7 @@ class Macas{
        return (temp);
    }
    /*Construtor*/
-   public Macas(){
+   public  Macas(){
        Scanner le = new Scanner(System.in);
        System.out.print("Tipo: ");
        tipo = le.next();
@@ -27,11 +27,4 @@ class Macas{
    }
    
    
-}
-
-public class FruitSet {
-
-    public static void main(String[] args) {
-        
-    }
 }
