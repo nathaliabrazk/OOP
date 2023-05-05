@@ -1,6 +1,6 @@
 
 package aula02.equacaoquadratica;
-import java.util.*;
+import java.util.*;/*Para trabalhar com coleções, entrada de dados(scanner) e componentes de data e hora*/
 public class EquacaoQuadratica {
 
     public static void main(String[] args) {
